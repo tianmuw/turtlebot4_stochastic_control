@@ -14,8 +14,8 @@ import time
 from geometry_msgs.msg import PoseStamped
 from marvelmind_ros2_msgs.msg import HedgePosition
 from rclpy.qos import qos_profile_sensor_data, qos_profile_services_default
-from turtlebot_project.navigate_turtlebot4_client import TurtleBot4ClientNode
-from turtlebot4_control.util import *
+from turtlebot_interface.nav_client import TurtleBot4ClientNode
+from turtlebot_control.util import *
 
 class TBController(Node):
 
