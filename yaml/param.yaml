@@ -1,0 +1,14 @@
+namespace: 'yosemite'
+parameters:
+  robot_name: "my_robot"
+  beacon_type: 'marvelmind'
+  x_init: - [1.3, 1.6]
+  x_obs:
+    !!python/object/apply: numpy.array
+    - [-1.0, -0.7]
+    - [-3.5, -0.7]
+    - [-3.4, -1.9]
+    - [-0.7, -2.5]
+    - {dtype: float32}
+  d: 1.0
+  theta: 0.15
